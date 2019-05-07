@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author jiangsida
  * @VERSION 1.0
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = {})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class,args);

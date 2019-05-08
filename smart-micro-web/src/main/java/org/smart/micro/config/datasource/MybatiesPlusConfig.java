@@ -28,7 +28,7 @@ import java.util.Map;
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan("org.smart.micro.mapper.db1")
+@MapperScan("org.smart.micro.mapper.*")
 public class MybatiesPlusConfig {
     //注册分页插件mybaties自动帮你分页
    @Bean

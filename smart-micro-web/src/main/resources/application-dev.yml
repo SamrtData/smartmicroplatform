@@ -4,34 +4,33 @@ spring:
     db1:
       url: jdbc:mysql://10.0.10.98:3306/smallbun?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
       username: root
-      password: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEAj3I6m9lTVwNqxoAn5I4bBKw2DRgf+A6SjZ5bcKBMLtYoRKwWzQFNDTP1do23EeTMw6zLTC5+3oBDtwPiR9DgfQIDAQABAkBiPTXcVDsaRXHT3iL0CUqBqbsevp3uUXSW3pP7Dxz9mY7oY/63H6RJ6mbxFwjt/+FtOIQR73prKpYNv6JJoKKhAiEA2Jy7pC7ya6/xXGXcBFXpch16jlL8LCUo9bOrNCDEQPkCIQCph6DUM5/sbSQcwuJW4aUDtPO8NCWnNaF4DC1zm6sApQIgYDoweZ2JgCFnPb7aYOqxjEpgOX3QHORdL9mjQsMTrDECICW/DRAybmk149SDj+HIW/V3VM2Szs9sIYeZLoWPI4QBAiAXwAl3eiy+jRwwWgpo2/+YDBSTYuTM8d+NZpRc2fUsNQ==
+      password: OK6Ss1sZtn1mESTc7pzZcjXa/UVA4M9YOpNw2aVhu2q4sufIDY3N7Ots8sSk6syoxfQJ7qGLRh/y5MnCD52zkA==
       driver-class-name: com.mysql.jdbc.Driver
       initialSize: 5
       minIdle: 5
       maxActive: 20
     filter:
-      slf4j:
-        data-source-log-enabled: true
-    connection-properties:
       config:
-        decrypt: true
-         key:
+        enabled: true
+    connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=true; config.decrypt.key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIZyGL+9SFeS7ksrjWVcdak9a3HcIy9PudkFz/3HIqJ/wkcJtHMWtV1iJMLnryyOhA7TB3CxPU1dMbCpzo2fGq8CAwEAAQ==
 
 
-    #  db2:
 
-   #    url: jdbc:oracle:thin:@192.168.136.222:ORCL
-  #    username: sa
-  #    password: sa123456
-  #    driver-class-name: oracle.jdbc.OracleDriver
-  #    initialSize: 5
-  #    minIdle: 5
-  #    maxActive: 20
-  #    db3:
-  #      url: jdbc:oracle:thin:@192.168.136.223:ORCL
-  #      username: sb
-  #      password: sb123456
-  #      driver-class-name: oracle.jdbc.OracleDriver
-  #      initialSize: 5
-  #      minIdle: 5
-  #      maxActive: 20
+#  db2:
+
+#    url: jdbc:oracle:thin:@192.168.136.222:ORCL
+
+#    username: sa
+#    password: sa123456
+#    driver-class-name: oracle.jdbc.OracleDriver
+#    initialSize: 5
+#    minIdle: 5
+#    maxActive: 20
+#    db3:
+#      url: jdbc:oracle:thin:@192.168.136.223:ORCL
+#      username: sb
+#      password: sb123456
+#      driver-class-name: oracle.jdbc.OracleDriver
+#      initialSize: 5
+#      minIdle: 5
+#      maxActive: 20

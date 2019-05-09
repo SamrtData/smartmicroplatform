@@ -12,8 +12,15 @@ spring:
     filter:
       slf4j:
         data-source-log-enabled: true
-  #  db2:
-  #    url: jdbc:oracle:thin:@192.168.136.222:ORCL
+    connection-properties:
+      config:
+        decrypt: true
+         key:
+
+
+    #  db2:
+
+   #    url: jdbc:oracle:thin:@192.168.136.222:ORCL
   #    username: sa
   #    password: sa123456
   #    driver-class-name: oracle.jdbc.OracleDriver

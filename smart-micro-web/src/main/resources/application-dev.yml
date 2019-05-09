@@ -4,7 +4,7 @@ spring:
     db1:
       url: jdbc:mysql://10.0.10.98:3306/smallbun?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
       username: root
-      password: root
+      password: MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEAj3I6m9lTVwNqxoAn5I4bBKw2DRgf+A6SjZ5bcKBMLtYoRKwWzQFNDTP1do23EeTMw6zLTC5+3oBDtwPiR9DgfQIDAQABAkBiPTXcVDsaRXHT3iL0CUqBqbsevp3uUXSW3pP7Dxz9mY7oY/63H6RJ6mbxFwjt/+FtOIQR73prKpYNv6JJoKKhAiEA2Jy7pC7ya6/xXGXcBFXpch16jlL8LCUo9bOrNCDEQPkCIQCph6DUM5/sbSQcwuJW4aUDtPO8NCWnNaF4DC1zm6sApQIgYDoweZ2JgCFnPb7aYOqxjEpgOX3QHORdL9mjQsMTrDECICW/DRAybmk149SDj+HIW/V3VM2Szs9sIYeZLoWPI4QBAiAXwAl3eiy+jRwwWgpo2/+YDBSTYuTM8d+NZpRc2fUsNQ==
       driver-class-name: com.mysql.jdbc.Driver
       initialSize: 5
       minIdle: 5

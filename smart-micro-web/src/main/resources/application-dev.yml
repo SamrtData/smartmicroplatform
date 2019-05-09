@@ -4,15 +4,13 @@ spring:
     db1:
       url: jdbc:mysql://10.0.10.98:3306/smallbun?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
       username: root
-      password: OK6Ss1sZtn1mESTc7pzZcjXa/UVA4M9YOpNw2aVhu2q4sufIDY3N7Ots8sSk6syoxfQJ7qGLRh/y5MnCD52zkA==
+      password: root
       driver-class-name: com.mysql.jdbc.Driver
       initialSize: 5
       minIdle: 5
       maxActive: 20
-    filter:
-      config:
-        enabled: true
-    connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=true; config.decrypt.key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIZyGL+9SFeS7ksrjWVcdak9a3HcIy9PudkFz/3HIqJ/wkcJtHMWtV1iJMLnryyOhA7TB3CxPU1dMbCpzo2fGq8CAwEAAQ==
+
+
 
 
 

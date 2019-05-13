@@ -9,26 +9,25 @@ spring:
       initialSize: 5
       minIdle: 5
       maxActive: 20
+  #  db2:
 
+  #    url: jdbc:oracle:thin:@192.168.136.222:ORCL
 
-
-
-
-#  db2:
-
-#    url: jdbc:oracle:thin:@192.168.136.222:ORCL
-
-#    username: sa
-#    password: sa123456
-#    driver-class-name: oracle.jdbc.OracleDriver
-#    initialSize: 5
-#    minIdle: 5
-#    maxActive: 20
-#    db3:
-#      url: jdbc:oracle:thin:@192.168.136.223:ORCL
-#      username: sb
-#      password: sb123456
-#      driver-class-name: oracle.jdbc.OracleDriver
-#      initialSize: 5
-#      minIdle: 5
-#      maxActive: 20
+  #    username: sa
+  #    password: sa123456
+  #    driver-class-name: oracle.jdbc.OracleDriver
+  #    initialSize: 5
+  #    minIdle: 5
+  #    maxActive: 20
+  #    db3:
+  #      url: jdbc:oracle:thin:@192.168.136.223:ORCL
+  #      username: sb
+  #      password: sb123456
+  #      driver-class-name: oracle.jdbc.OracleDriver
+  #      initialSize: 5
+  #      minIdle: 5
+  #      maxActive: 20
+ security:
+   user:
+     name: user
+     password: 123456
